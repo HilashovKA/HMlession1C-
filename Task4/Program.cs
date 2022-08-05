@@ -12,8 +12,8 @@ int num3 = Convert.ToInt32(Console.ReadLine());
 if (num1 > num2 && num1 > num3)
     Console.WriteLine ("Max = " + num1);
     else if (num2 > num3)
-    Console.WriteLine ("Max = " + num2);
+    Console.WriteLine ("Max = " + num2); 
     else
     Console.WriteLine ("Max = " + num3);
             
-    Console.ReadLine();
+    Console.WriteLine();
